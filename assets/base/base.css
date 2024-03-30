@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+
+/*=================ROOT================*/
+:root {
+    /* font-family */
+    --font-Inter: "Inter", sans-serif;
+    --font-Roboto: "Roboto", sans-serif;
+}
+
+/*=================RESET CSS=================*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    font-family: var(--font-Inter);
+}
