@@ -11,12 +11,543 @@
     />
     <!-- Css chung -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="../base/grid.css" />
     <link rel="stylesheet" href="../base/base.css" />
 
     <!-- Css riêng -->
     <link rel="stylesheet" href="../css/home.css" />
     <link rel="stylesheet" href="../responsive" />
   </head>
-  <body></body>
+  <body>
+    <div class="home">
+      <!-- header -->
+      <header class="header-layout">
+        <div class="site-header">
+          <div class="header-top">
+            <!-- phần liên hệ -->
+            <div class="header-top__contact">
+              <div class="contact-phone">
+                <i class="phone" data-feather="phone-call"></i>
+                <a class="number" href="tel:+84 34-567-8910">+84 34-567-8910</a>
+              </div>
+              <div class="contact-email">
+                <i class="email" data-feather="mail"></i>
+                <a class="mail" href="mailto:abc@gmail.com">abc@gmail.com</a>
+              </div>
+            </div>
+            <!-- phần thông báo -->
+            <div class="header-top__anouncement">
+              <strong>FREE SHIPPING FOR ORDER ABOVE $200. </strong>
+              <a class="anouncement-show" href="#">
+                <strong>SHOP NOW !</strong>
+              </a>
+            </div>
+            <!-- phần địa chỉ, ngôn ngữ, tiền -->
+            <div class="header-top__other">
+              <!-- địa chỉ -->
+              <div class="other-address">
+                <i class="map" data-feather="map-pin"></i>
+                <p>Doc Tin, My Duc, Ha Noi</p>
+              </div>
+              <!-- ngôn ngữ -->
+              <div class="other-language">
+                <select id="languageDropdown">
+                  <option value="en">English</option>
+                  <option value="vi">Vietnamese</option>
+                </select>
+              </div>
+              <!-- tiền tệ -->
+              <div class="other-currency">
+                <select id="currencyDropdown">
+                  <option value="vnd">VND</option>
+                  <option value="usd">USD</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="header-center">
+            <!-- menu -->
+            <div class="header-center__nav">
+              <nav class="nav-accessible">
+                <ul class="site-nav">
+                  <!-- home -->
+                  <li class="nav-lv1">
+                    <a class="site-nav__link nav-active" href="#">Home</a>
+                  </li>
+                  <!-- Collections -->
+                  <li class="nav-lv1">
+                    <a class="site-nav__link" href="#">Collections</a>
+                    <div class="nav-dropdown">
+                      <div class="nav-dropdown__mega">
+                        <div class="mega-menu">
+                          <div class="mega-menu__first">
+                            <ul class="first__menu-link">
+                              <li class="menu-link__title">
+                                <a href="#">COLLECTION PAGE</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Left Sidebar</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Right Sidebar</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Top Sidebar</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Without Sidebar</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Deals</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="mega-menu__center">
+                            <ul class="first__menu-link">
+                              <li class="menu-link__title">
+                                <a href="#">COLLECTION PAGE</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Canvas On Left</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Canvas On Top</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Canvas On Bottom</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Collection Full Width</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="mega-menu__last">
+                            <ul class="first__menu-link">
+                              <li class="menu-link__title">
+                                <a href="#">COLLECTION PAGE</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Numbered Pagination</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Load More Botton</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Infinity Scroll More</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="mega-picture">
+                          <div class="mega-picture__banner">
+                            <img
+                              src="../image/img-banner/menu_330x320.webp"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- product -->
+                  <li class="nav-lv1">
+                    <a class="site-nav__link" href="#">Products</a>
+                    <div class="nav-dropdown">
+                      <div class="nav-dropdown__mega">
+                        <div class="mega-menu">
+                          <div class="mega-menu__first">
+                            <ul class="first__menu-link">
+                              <li class="menu-link__title">
+                                <a href="#">MEN CLOTHES</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Quilted Puffer Jacket</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Shawl-collar Cardigan Sweater</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Flat-front Tailored Chinos</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Men's Plain Jeans</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">V-neck Sweater Vest</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Cargo Jogger Pants</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Drawstring Linen Shorts</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="mega-menu__center">
+                            <ul class="first__menu-link">
+                              <li class="menu-link__title">
+                                <a href="#">WOMEN'S CLOTHING</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Blouse Vest Collar</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Crop-Top Shirt</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Oversized Shirt</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Women's Peplum Blouse</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Women's Fabric Pants</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Lace-trimmed Camisole</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Crochet-trimmed Boho Tunic</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Floral Print Ruffled Blouse</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="mega-menu__last">
+                            <ul class="first__menu-link">
+                              <li class="menu-link__title">
+                                <a href="#">OTHER PRODUCTS</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Athletic Shoes </a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Fashion Accessories </a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Wide-brimmed Hats</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Printed Scarves</a>
+                              </li>
+                              <li class="menu-link">
+                                <a href="">Insulated Gloves</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="mega-picture">
+                          <div class="mega-picture__banner">
+                            <img
+                              src="../image/img-banner/menu_330x320.webp"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- other -->
+                  <li class="nav-lv1">
+                    <a class="site-nav__link" href="#">Other pages</a>
+                    <div class="nav-dropdown dropdown-block">
+                      <ul>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#">404 Error</a>
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#">About Us</a>
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#">Contact Us</a>
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#">FAQs Page</a>
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#"
+                            >Store Direction Page</a
+                          >
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#"
+                            >Store Locations Page</a
+                          >
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#"
+                            >Testimonials Pase</a
+                          >
+                        </li>
+                        <li class="menu-link">
+                          <a class="other-product__link" href="#"
+                            >Size Guide Page</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <!-- New -->
+                  <li class="nav-lv1">
+                    <a class="site-nav__link" href="#">New</a>
+                    <div class="nav-dropdown"></div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- logo -->
+            <div class="header-center__logo">
+              <a class="logo-main" href="#">
+                <img
+                  class="logo-dream"
+                  src="../image/img-logo/Modern Minimalist Graffiti Dream Brand Logo.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <!-- nhóm chức năng khác -->
+            <div class="header-center__functional-group">
+              <div class="functional-group">
+                <!-- tìm kiếm -->
+                <div class="search">
+                  <i class="function-icon" data-feather="search"></i>
+                  <span class="search-text">Search</span>
+                </div>
+                <!-- tài khoản -->
+                <div class="account">
+                  <i class="function-icon" data-feather="user"></i>
+                  <span class="account-text">Account</span>
+                </div>
+                <!-- yêu thích -->
+                <div class="wishlist">
+                  <span class="wishlist-icon">
+                    <i class="function-icon" data-feather="heart"></i>
+                    <span class="heart__number"></span>
+                  </span>
+                  <span class="wishlist-text">Wishlist</span>
+                </div>
+                <!-- giỏ hàng -->
+                <div class="cart">
+                  <span class="cart-icon">
+                    <i class="function-icon" data-feather="shopping-cart"></i>
+                    <span class="shopping-cart__number"></span>
+                  </span>
+                  <span class="cart-text">Cart</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- content -->
+      <main class="main-content"></main>
+
+      <!-- footer -->
+      <footer class="footer-layout">
+        <div class="footer-top">
+          <div class="container">
+            <!-- contact -->
+            <div class="footer-contact">
+              <div class="block">
+                <div class="block-title">
+                  <p class="title-footer">CONTACT US</p>
+                </div>
+                <div class="block-contents">
+                  <div class="footer-subtitle">
+                    <p class="contact-title">
+                      Morbi ullamcorper ligula sit amet efficitur pellentesque.
+                      Aliquam ornare quam tellus ultricies molestie tortor.
+                    </p>
+                  </div>
+                  <!-- phone -->
+                  <div class="footer-item__contact">
+                    <div class="footer-iteam__icon">
+                      <i class="contact__icon" data-feather="phone-call"></i>
+                    </div>
+                    <span class="footer-iteam__phone">
+                      HOTLINE :
+                      <strong>+84 34-567-8910</strong>
+                    </span>
+                  </div>
+                  <!-- email -->
+                  <div class="footer-item__contact">
+                    <div class="footer-iteam__icon">
+                      <i class="contact__icon" data-feather="mail"></i>
+                    </div>
+                    <span>abc@gmail.com</span>
+                  </div>
+                  <!-- thời gian -->
+                  <div class="footer-item__contact">
+                    <div class="footer-iteam__icon">
+                      <i class="contact__icon" data-feather="clock"></i>
+                    </div>
+                    <span>Monday till Friday 10 to 6 EST</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- help -->
+            <div class="footer-help">
+              <div class="block">
+                <div class="block-title">
+                  <p class="title-footer">HELP</p>
+                </div>
+                <div class="block-contents">
+                  <ul class="footer__site-nav">
+                    <li class="footer__site-nav__item">
+                      <a href="#">Help Center</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Shipping Info</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Returns</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">How To Order</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">How To Track</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Size Giude</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- company -->
+            <div class="footer-company">
+              <div class="block">
+                <div class="block-title">
+                  <p class="title-footer">COMPANY</p>
+                </div>
+                <div class="block-contents">
+                  <ul class="footer__site-nav">
+                    <li class="footer__site-nav__item">
+                      <a href="#">About Us</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Our Blog</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Store Locations</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">Testimonial</a>
+                    </li>
+                    <li class="footer__site-nav__item">
+                      <a href="#">sitemap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- newsletter -->
+            <div class="footer-newsletter">
+              <div class="block">
+                <div class="block-title">
+                  <p class="title-footer">NEWSLETTER</p>
+                </div>
+                <div class="block-contents">
+                  <div class="block-contents__newsletter">
+                    <div class="footer-subtitle">
+                      <p class="contact-title">
+                        Get 15% off your first purchaxse! Plus, be the first to
+                        know about sales new product launches and exclusive
+                        offers!
+                      </p>
+                    </div>
+                    <form
+                      action=""
+                      method="post"
+                      id="footer-newsletter__email"
+                      class="newsletter-form"
+                    >
+                      <div class="input-group">
+                        <input
+                          type="email"
+                          id="footer-email"
+                          class="form-control"
+                          placeholder="Your Email Address"
+                        />
+                        <button type="submit" class="newsletter-submit">
+                          <i data-feather="arrow-right"></i>
+                        </button>
+                      </div>
+                    </form>
+                    <div class="footer__social-network">
+                      <div class="block-social">
+                        <ul class="list-social">
+                          <li class="list-social__item">
+                            <a href="#">
+                              <i data-feather="facebook"></i>
+                            </a>
+                          </li>
+                          <li class="list-social__item">
+                            <a href="#">
+                              <i data-feather="youtube"></i>
+                            </a>
+                          </li>
+                          <li class="list-social__item">
+                            <a href="#">
+                              <i data-feather="instagram"></i>
+                            </a>
+                          </li>
+                          <li class="list-social__item">
+                            <a href="#">
+                              <i data-feather="twitter"></i>
+                            </a>
+                          </li>
+                          <li class="list-social__item">
+                            <a href="#">
+                              <i data-feather="linkedin"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <div class="container">
+            <div class="footer-end__pay">
+              <div class="advertisement">
+                <span>©2023 NOVA-CREATIVE THEME</span>
+              </div>
+              <div class="payment-method">
+                <div class="footer-payment">
+                  <div class="payment__item">
+                    <img src="../image/img-payments/apple-pay-2.svg" alt="" />
+                  </div>
+                  <div class="payment__item">
+                    <img src="../image/img-payments/discover-4.svg" alt="" />
+                  </div>
+                  <div class="payment__item">
+                    <img src="../image/img-payments/mastercard-4.svg" alt="" />
+                  </div>
+                  <div class="payment__item">
+                    <img src="../image/img-payments/visa.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Feather icon -->
+      <script>
+        feather.replace();
+      </script>
+    </div>
+  </body>
 </html>
